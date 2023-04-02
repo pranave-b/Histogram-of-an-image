@@ -25,8 +25,8 @@ Display the grayscale image.<br>
 ## Program:
 
 
-### Developed By: Pranave B
-### Register Number: 212221240040
+#### Developed By: Pranave B
+#### Register Number: 212221240040
 
 ```python
 import cv2
