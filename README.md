@@ -23,41 +23,41 @@ Equalize the grayscale image.<br>
 Display the grayscale image.<br>
 
 ## Program:
+
+
+### Developed By: Pranave B
+### Register Number: 212221240040
+
 ```python
-
-# Developed By: Pranave B
-# Register Number: 212221240040
-
 import cv2
 import matplotlib.pyplot as plt
-
-# Write your code to find the histogram of gray scale image and color image channels.
 ```
-## Gray Image
+## Write your code to find the histogram of gray scale image and color image channels.
+
+### Gray Image
 ```python
 hist = cv2.calcHist([gray_image],[0],None,[256],[0,255])
 ```
-## Color Image 
+### Color Image 
 
-### Chanel Blue
+#### Chanel Blue
 ```python
 h1 = cv2.calcHist([color_image],[0],None,[256],[0,255]) 
 ```
-### Chanel Green
+#### Chanel Green
 ```python
 h2 = cv2.calcHist([color_image],[1],None,[256],[0,255]) 
 ```
-### Chanel Red
+#### Chanel Red
 ```python
 h3 = cv2.calcHist([color_image],[2],None,[256],[0,255]) 
 ```
 
 
-```python
-# Display the histogram of gray scale image and any one channel histogram from color image
-```
+## Display the histogram of gray scale image and any one channel histogram from color image
 
-## Gray Image
+
+### Gray Image
 ```python
 import cv2
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ cv2.imshow('gray_image',gray_image)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
 ```
-## Color Image
+### Color Image
 ```python
 import cv2
 import matplotlib.pyplot as plt
@@ -76,9 +76,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-```python
-# Write the code to perform histogram equalization of the image.
 
+## Write the code to perform histogram equalization of the image.
+```python
 equ_img = cv2.equalizeHist(gray_image)
 ```
 
