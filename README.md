@@ -81,13 +81,6 @@ cv2.destroyAllWindows()
 ```python
 equ_img = cv2.equalizeHist(gray_image)
 ```
-
-
-
-
-
-
-
 # Output:
 ## Input Grayscale Image and Color Image
 
